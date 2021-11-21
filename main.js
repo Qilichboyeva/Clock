@@ -11,7 +11,8 @@ function updateClock() {
   let hour = date.getHours() / 12;
   secundDiv.style.transform = "rotate(" + secund * 360 + "deg)";
   minutDiv.style.transform = "rotate(" + minut * 360 + "deg)";
-  hourDiv.style.transform = "rotate(" + hour * 360 + "deg)";
+  hourDiv.style.transform = "rotate(" + hour * 360 + "deg)";  
 }
+
 
 updateClock();
